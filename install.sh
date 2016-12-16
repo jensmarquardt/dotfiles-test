@@ -1,6 +1,6 @@
 run_install() {
     # source all shell scripts
-    for shell_script in 'scripts/'*.sh; do
+    for shell_script in '/scripts/'*.sh; do
         source "${shell_script}"
     done
 
