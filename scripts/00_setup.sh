@@ -1,5 +1,5 @@
 #!/bin/bash
 
-setup() {
+run_setup() {
 	echo "'Let's the party started..."
 }

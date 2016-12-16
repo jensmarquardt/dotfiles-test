@@ -1,12 +1,12 @@
 #!/bin/bash
 
-run() {
-	# source all shell scripts
-	for shell_script in 'scripts/'*.sh; do
-		source "${shell_script}"
-	done
-	
-	setup
+run_install() {
+    # source all shell scripts
+    for shell_script in 'scripts/'*.sh; do
+        source "${shell_script}"
+    done
+
+    run_setup
 }
 
-run
+run_install
