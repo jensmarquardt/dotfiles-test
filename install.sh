@@ -1,3 +1,5 @@
+#!/bin/bash
+
 run_install() {
 	curl --progress-bar --location 'https://github.com/jensmarquardt/dotfiles-test/archive/master.zip' | ditto -xk - '/tmp'
     
