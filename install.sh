@@ -1,5 +1,3 @@
-#!/bin/bash
-
 run_install() {
     # source all shell scripts
     for shell_script in 'scripts/'*.sh; do
