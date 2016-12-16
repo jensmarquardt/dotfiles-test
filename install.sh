@@ -1,6 +1,8 @@
 run_install() {
+	curl --progress-bar --location 'https://github.com/jensmarquardt/dotfiles-test/archive/master.zip' | ditto -xk - '/tmp'
+    
     # source all shell scripts
-    for shell_script in '/scripts/'*.sh; do
+    for shell_script in '/tmp/dotfiles-master/scripts/'*.sh; do
         source "${shell_script}"
     done
 
